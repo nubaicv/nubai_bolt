@@ -1,0 +1,49 @@
+/* 
+    Created on : Nov 6, 2021, 12:58:59 AM
+    Author     : ricardo
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ccc;
+    padding: 12px;
+    display: flex;
+}
+
+nav.main-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav.main-nav ul li {
+    padding: 10px 12px;
+}
+
+nav.main-nav ul li a {
+    padding: 12px;
+}
+
+a.logo {
+    background-color: #000;
+    color: #eee;
+    padding: 12px;
+}
+
+aside {
+    background-color: #eee;
+    padding: 12px;
+}
+
+main {
+    padding: 12px;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 12px;
+}

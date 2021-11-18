@@ -1,0 +1,19 @@
+{% extends 'partials/_master.twig' %}
+
+{% block body %}
+    <div class="center">
+        <main>
+            {% for message in app.flashes('success') %}
+                <div>{{ message }}</div>
+            {% endfor %}
+            <h1>sign up form</h1>
+            <div>{{ form(form) }}</div>
+        </main>
+    </div>
+{% endblock body %}
+
+{% block aside %}
+
+    {{ include('partials/_aside.twig') }}
+
+{% endblock aside %}
