@@ -83,6 +83,7 @@ pages:
     taxonomy: [ groups ]
     records_per_page: 5
     order: id
+    allow_for_groups: [ 'ROLE_MEMBER', 'ROLE_ADMIN' ]
 
 
 # Entries can be used for things like 'news' or 'blogpostings'. They have a
