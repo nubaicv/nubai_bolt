@@ -13,7 +13,8 @@
         "bolt/themes": "^3.5",
         "bolt/users": "^0.1.6",
         "nelmio/security-bundle": "^2.10",
-        "symfony/flex": "^1.17"
+        "symfony/flex": "^1.17",
+        "symfony/maker-bundle": "^1.36"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,

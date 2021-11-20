@@ -33,13 +33,6 @@ contactbinding:
     contentTypeSlug: page
     slugOrId: contact
     
-loginbinding:
-  path: /login
-  defaults:
-    _controller: Bolt\Controller\Frontend\DetailController::record
-    contentTypeSlug: page
-    slugOrId: login
-    
     
 # Routes for the project-specific functionality
 project:
