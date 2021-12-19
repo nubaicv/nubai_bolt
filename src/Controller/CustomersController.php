@@ -8,7 +8,7 @@ use Bolt\Controller\TwigAwareController;
 
 class CustomersController extends TwigAwareController
 {
-    #[Route('/register', name: 'register')]
+    #[Route('/{_locale}/register', name: 'register')]
     public function register(): Response
     {
         
@@ -20,7 +20,7 @@ class CustomersController extends TwigAwareController
         ]);
     }
     
-    #[Route('/login', name: 'login')]
+    #[Route('/{_locale}/login', name: 'login')]
     public function login(): Response
     {
         

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="pt-BR" trgLang="fr">
+  <file id="messages.fr">
+    <unit id="GAoSey9" name="form.what">
+      <segment>
+        <source>form.what</source>
+        <target>Formularie de Cadastre</target>
+      </segment>
+    </unit>
+    <unit id="FbgNnrv" name="mainmenu.about">
+      <segment>
+        <source>mainmenu.about</source>
+        <target>à propos de nous</target>
+      </segment>
+    </unit>
+    <unit id="YZNPW14" name="mainmenu.contact">
+      <segment>
+        <source>mainmenu.contact</source>
+        <target>Contacte</target>
+      </segment>
+    </unit>
+    <unit id="213.JSv" name="mainmenu.login">
+      <segment>
+        <source>mainmenu.login</source>
+        <target>Connexion</target>
+      </segment>
+    </unit>
+    <unit id="fxxl6.a" name="mainmenu.register">
+      <segment>
+        <source>mainmenu.register</source>
+        <target>S'inscrire</target>
+      </segment>
+    </unit>
+    <unit id="OPxagAY" name="general.phrase.none">
+      <segment>
+        <source>general.phrase.none</source>
+        <target>General Phrase None</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

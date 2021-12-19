@@ -20,14 +20,14 @@ frontend:
 # Place your own routes here, that have a LOWER priority than the default routes.
 
 aboutbinding:
-  path: /about
+  path: /{_locale}/about
   defaults:
     _controller: Bolt\Controller\Frontend\DetailController::record
     contentTypeSlug: page
     slugOrId: about
 
 contactbinding:
-  path: /contact
+  path: /{_locale}/contact
   defaults:
     _controller: Bolt\Controller\Frontend\DetailController::record
     contentTypeSlug: page

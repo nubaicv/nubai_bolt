@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="pt-BR" trgLang="en">
   <file id="messages.en">
+    <unit id="GAoSey9" name="form.what">
+      <segment>
+        <source>form.what</source>
+        <target>Register form</target>
+      </segment>
+    </unit>
+    <unit id="FbgNnrv" name="mainmenu.about">
+      <segment>
+        <source>mainmenu.about</source>
+        <target>About Us</target>
+      </segment>
+    </unit>
+    <unit id="YZNPW14" name="mainmenu.contact">
+      <segment>
+        <source>mainmenu.contact</source>
+        <target>Contact</target>
+      </segment>
+    </unit>
+    <unit id="213.JSv" name="mainmenu.login">
+      <segment>
+        <source>mainmenu.login</source>
+        <target>Log in</target>
+      </segment>
+    </unit>
+    <unit id="fxxl6.a" name="mainmenu.register">
+      <segment>
+        <source>mainmenu.register</source>
+        <target>Register</target>
+      </segment>
+    </unit>
     <unit id="a_COwtV" name="image.button_upload_options">
       <segment>
         <source>image.button_upload_options</source>
@@ -19,16 +49,10 @@
         <target>general.phrase.none</target>
       </segment>
     </unit>
-    <unit id="Ej.WZqo" name="danger">
+    <unit id="A_d5KPt" name="general.phrase.written-by-on">
       <segment>
-        <source>danger</source>
-        <target>danger</target>
-      </segment>
-    </unit>
-    <unit id="ekJPePm" name="You do not have permission to access this page.">
-      <segment>
-        <source>You do not have permission to access this page.</source>
-        <target>You do not have permission to access this page.</target>
+        <source>general.phrase.written-by-on</source>
+        <target>general.phrase.written-by-on</target>
       </segment>
     </unit>
   </file>

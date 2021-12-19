@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="pt-BR" trgLang="pt-BR">
+  <file id="messages.pt_BR">
+    <unit id="GAoSey9" name="form.what">
+      <segment>
+        <source>form.what</source>
+        <target>Formulario de registo</target>
+      </segment>
+    </unit>
+    <unit id="FbgNnrv" name="mainmenu.about">
+      <segment>
+        <source>mainmenu.about</source>
+        <target>Sobre nos</target>
+      </segment>
+    </unit>
+    <unit id="YZNPW14" name="mainmenu.contact">
+      <segment>
+        <source>mainmenu.contact</source>
+        <target>Contactos</target>
+      </segment>
+    </unit>
+    <unit id="213.JSv" name="mainmenu.login">
+      <segment>
+        <source>mainmenu.login</source>
+        <target>Entrar</target>
+      </segment>
+    </unit>
+    <unit id="fxxl6.a" name="mainmenu.register">
+      <segment>
+        <source>mainmenu.register</source>
+        <target>Registo</target>
+      </segment>
+    </unit>
+    <unit id="OPxagAY" name="general.phrase.none">
+      <segment>
+        <source>general.phrase.none</source>
+        <target>general.phrase.none</target>
+      </segment>
+    </unit>
+    <unit id="UNBaDz." name="general.phrase.edit">
+      <segment>
+        <source>general.phrase.edit</source>
+        <target>Editar</target>
+      </segment>
+    </unit>
+    <unit id="t2TNwOq" name="Unknown">
+      <segment>
+        <source>Unknown</source>
+        <target>Desconhecido</target>
+      </segment>
+    </unit>
+    <unit id="A_d5KPt" name="general.phrase.written-by-on">
+      <segment>
+        <source>general.phrase.written-by-on</source>
+        <target>general.phrase.written-by-on</target>
+      </segment>
+    </unit>
+    <unit id="k.xuYv2" name="general.phrase.permalink">
+      <segment>
+        <source>general.phrase.permalink</source>
+        <target>general.phrase.permalink</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
