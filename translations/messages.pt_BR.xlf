@@ -31,12 +31,6 @@
         <target>Registo</target>
       </segment>
     </unit>
-    <unit id="OPxagAY" name="general.phrase.none">
-      <segment>
-        <source>general.phrase.none</source>
-        <target>general.phrase.none</target>
-      </segment>
-    </unit>
     <unit id="UNBaDz." name="general.phrase.edit">
       <segment>
         <source>general.phrase.edit</source>
@@ -49,16 +43,40 @@
         <target>Desconhecido</target>
       </segment>
     </unit>
-    <unit id="A_d5KPt" name="general.phrase.written-by-on">
-      <segment>
-        <source>general.phrase.written-by-on</source>
-        <target>general.phrase.written-by-on</target>
-      </segment>
-    </unit>
     <unit id="k.xuYv2" name="general.phrase.permalink">
       <segment>
         <source>general.phrase.permalink</source>
         <target>general.phrase.permalink</target>
+      </segment>
+    </unit>
+    <unit id="3NHVIj9" name="Name">
+      <segment>
+        <source>Name</source>
+        <target>Nome</target>
+      </segment>
+    </unit>
+    <unit id="92LaBfT" name="Surname">
+      <segment>
+        <source>Surname</source>
+        <target>Apelido</target>
+      </segment>
+    </unit>
+    <unit id="588_9PF" name="Password">
+      <segment>
+        <source>Password</source>
+        <target>Palavra-passe</target>
+      </segment>
+    </unit>
+    <unit id="2CuCmva" name="Regista-te">
+      <segment>
+        <source>Regista-te</source>
+        <target>Regista-te</target>
+      </segment>
+    </unit>
+    <unit id="4KiRkfF" name="flash.registered">
+      <segment>
+        <source>flash.registered</source>
+        <target>Voce foi registado com sucesso.</target>
       </segment>
     </unit>
   </file>

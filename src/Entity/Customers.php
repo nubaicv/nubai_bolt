@@ -4,11 +4,13 @@ namespace App\Entity;
 
 use App\Repository\CustomersRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 
 /**
  * @ORM\Entity(repositoryClass=CustomersRepository::class)
  */
-class Customers
+class Customers implements UserInterface, PasswordAuthenticatedUserInterface
 {
     /**
      * @ORM\Id
@@ -53,7 +55,14 @@ class Customers
     private $email_verification_code;
     
 
-
+    // Constructor function
+    function __construct() {
+        
+        $this->created = new \DateTime();
+        $this->updated = new \DateTime();
+        $this->email_verification_code = 'generate some random code here';
+    }
+    
 
     //GETTERS AND SETTERS
     public function getId(): ?int
@@ -143,5 +152,42 @@ class Customers
         $this->email_verification_code = $email_verification_code;
 
         return $this;
+    }
+    
+    public function getUsername(): string
+    {
+        return (string) $this->email;
+    }
+    
+    public function getRoles(): ?array
+    {
+        return $this->roles;
+    }
+
+    public function setRoles(array $roles): self
+    {
+        $this->roles = $roles;
+
+        return $this;
+    }
+    
+    /**
+     * Returning a salt is only needed, if you are not using a modern
+     * hashing algorithm (e.g. bcrypt or sodium) in your security.yaml.
+     *
+     * @see UserInterface
+     */
+    public function getSalt(): ?string
+    {
+        return null;
+    }
+
+    /**
+     * @see UserInterface
+     */
+    public function eraseCredentials()
+    {
+        // If you store any temporary, sensitive data on the user, clear it here
+        // $this->plainPassword = null;
     }
 }

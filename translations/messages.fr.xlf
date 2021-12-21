@@ -4,7 +4,7 @@
     <unit id="GAoSey9" name="form.what">
       <segment>
         <source>form.what</source>
-        <target>Formularie de Cadastre</target>
+        <target>formulaire d'inscription</target>
       </segment>
     </unit>
     <unit id="FbgNnrv" name="mainmenu.about">
@@ -34,7 +34,37 @@
     <unit id="OPxagAY" name="general.phrase.none">
       <segment>
         <source>general.phrase.none</source>
-        <target>General Phrase None</target>
+        <target>general.phrase.none</target>
+      </segment>
+    </unit>
+    <unit id="4KiRkfF" name="flash.registered">
+      <segment>
+        <source>flash.registered</source>
+        <target>Vous avez été enregistré avec succès.</target>
+      </segment>
+    </unit>
+    <unit id="3NHVIj9" name="Name">
+      <segment>
+        <source>Name</source>
+        <target>Prénom</target>
+      </segment>
+    </unit>
+    <unit id="92LaBfT" name="Surname">
+      <segment>
+        <source>Surname</source>
+        <target>Nom de famille</target>
+      </segment>
+    </unit>
+    <unit id="588_9PF" name="Password">
+      <segment>
+        <source>Password</source>
+        <target>Le mot de passe</target>
+      </segment>
+    </unit>
+    <unit id="2CuCmva" name="Regista-te">
+      <segment>
+        <source>Regista-te</source>
+        <target>S'inscrire</target>
       </segment>
     </unit>
   </file>

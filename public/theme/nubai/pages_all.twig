@@ -1,0 +1,7 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+    <h1>{{ record|title|capitalize }}</h1>
+    <p class="teaser">{{ record.teaser|capitalize }}</p>
+    <div class="record-body">{{ record.body }}</div>
+{% endblock main %}

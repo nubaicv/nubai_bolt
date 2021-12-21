@@ -28,7 +28,7 @@
     <unit id="fxxl6.a" name="mainmenu.register">
       <segment>
         <source>mainmenu.register</source>
-        <target>Register</target>
+        <target>Sign up</target>
       </segment>
     </unit>
     <unit id="a_COwtV" name="image.button_upload_options">
@@ -49,10 +49,34 @@
         <target>general.phrase.none</target>
       </segment>
     </unit>
-    <unit id="A_d5KPt" name="general.phrase.written-by-on">
+    <unit id="3NHVIj9" name="Name">
       <segment>
-        <source>general.phrase.written-by-on</source>
-        <target>general.phrase.written-by-on</target>
+        <source>Name</source>
+        <target>Name</target>
+      </segment>
+    </unit>
+    <unit id="92LaBfT" name="Surname">
+      <segment>
+        <source>Surname</source>
+        <target>Surname</target>
+      </segment>
+    </unit>
+    <unit id="588_9PF" name="Password">
+      <segment>
+        <source>Password</source>
+        <target>Password</target>
+      </segment>
+    </unit>
+    <unit id="2CuCmva" name="Regista-te">
+      <segment>
+        <source>Regista-te</source>
+        <target>Sign up</target>
+      </segment>
+    </unit>
+    <unit id="4KiRkfF" name="flash.registered">
+      <segment>
+        <source>flash.registered</source>
+        <target>You were successfully registered.</target>
       </segment>
     </unit>
   </file>

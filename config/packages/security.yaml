@@ -9,6 +9,11 @@ security:
 
     encoders:
         Bolt\Entity\User: auto
+    
+    password_hashers:
+        Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface: 'auto'
+        App\Entity\Customers:
+            algorithm: auto
 
     providers:
         database_users:
