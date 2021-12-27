@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="pt-BR" trgLang="en">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
   <file id="messages.en">
     <unit id="GAoSey9" name="form.what">
       <segment>
@@ -67,16 +67,22 @@
         <target>Password</target>
       </segment>
     </unit>
-    <unit id="2CuCmva" name="Regista-te">
-      <segment>
-        <source>Regista-te</source>
-        <target>Sign up</target>
-      </segment>
-    </unit>
     <unit id="4KiRkfF" name="flash.registered">
       <segment>
         <source>flash.registered</source>
         <target>You were successfully registered.</target>
+      </segment>
+    </unit>
+    <unit id="E.H7SY7" name="Submit register">
+      <segment>
+        <source>Submit register</source>
+        <target>Sign up</target>
+      </segment>
+    </unit>
+    <unit id="gqNTf.D" name="name">
+      <segment>
+        <source>name</source>
+        <target>name</target>
       </segment>
     </unit>
   </file>

@@ -13,5 +13,15 @@
             {% trans %}flash.registered{% endtrans %}
         </div>
     {% endfor %}
-    {{ form(form) }}
+    {{ form_start(form) }}
+    {{ form_label(form.name, null, { 'label_attr': {'class': ''} }) }}
+    {{ form_widget(form.name, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+    {{ form_label(form.surname, null, { 'label_attr': {'class': ''} }) }}
+    {{ form_widget(form.surname, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+    {{ form_label(form.email, null, { 'label_attr': {'class': ''} }) }}
+    {{ form_widget(form.email, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+    {{ form_label(form.password, null, { 'label_attr': {'class': ''} }) }}
+    {{ form_widget(form.password, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+    {{ form_widget(form.submit_register, { 'attr': {'class': 'w3-btn w3-indigo w3-margin-bottom'} }) }}
+    {{ form_end(form) }}
 {% endblock main %}

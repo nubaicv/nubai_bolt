@@ -23,7 +23,7 @@ class CustomerType extends AbstractType
             ->add('email', EmailType::class)
             ->add('password', PasswordType::class)
             //->add('email_verification_code')
-            ->add('Regista-te', SubmitType::class)
+            ->add('submit_register', SubmitType::class)
         ;
     }
 
