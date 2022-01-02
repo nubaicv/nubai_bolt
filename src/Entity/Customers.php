@@ -53,6 +53,11 @@ class Customers implements UserInterface, PasswordAuthenticatedUserInterface
      * @ORM\Column(type="string", length=100, nullable=true)
      */
     private $email_verification_code;
+
+    /**
+     * @ORM\Column(type="json")
+     */
+    private $roles = [];
     
 
     // Constructor function
@@ -61,6 +66,7 @@ class Customers implements UserInterface, PasswordAuthenticatedUserInterface
         $this->created = new \DateTime();
         $this->updated = new \DateTime();
         $this->email_verification_code = 'generate some random code here';
+        $this->roles = ['ROLE_USER'];
     }
     
 

@@ -85,5 +85,23 @@
         <target>name</target>
       </segment>
     </unit>
+    <unit id="ygD8z7Q" name="error">
+      <segment>
+        <source>error</source>
+        <target>error</target>
+      </segment>
+    </unit>
+    <unit id="enVIWZI">
+      <segment>
+        <source>A YAML file cannot contain tabs as indentation at line 263 (near "	type: imagelist").</source>
+        <target>A YAML file cannot contain tabs as indentation at line 263 (near "	type: imagelist").</target>
+      </segment>
+    </unit>
+    <unit id="kzSqYuV" name="mainmenu.products">
+      <segment>
+        <source>mainmenu.products</source>
+        <target>produtos</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

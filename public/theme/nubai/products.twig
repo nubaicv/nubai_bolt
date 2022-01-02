@@ -1,0 +1,18 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+    <div id="product-list-container">
+        {% for record in records %}
+            <div>
+                <h3><a href="{{ record|link }}">{{ record|title }}</a></h3>
+                    {% if record|image %}
+                    <a href="{{ record|image }}">
+                        <img src="{{ record|thumbnail(300, 180) }}" alt="{{ record|image.alt|default() }}" />
+                    </a>
+                {% endif %}
+                
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock main %}

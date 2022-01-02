@@ -75,3 +75,18 @@ footer {
     background-color: #ccc;
     padding: 12px;
 }
+
+/* estudo flexbox */
+
+#flexy {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#flexy > * {
+    min-width: 200px;
+    flex-basis: auto;
+    background-color: #ccc;
+}
