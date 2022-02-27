@@ -235,31 +235,32 @@ products:
         code:
             type: text
             variant: inline
-            group: Basic
+            label: "Codigo"
+            group: Básico
         title:
             type: text
             class: large
             variant: inline
-            label: Name of this product
+            label: "O nome completo deste produto"
             fixture_format: '{catchPhrase}'
             localize: true
         feature_1:
             type: text
             variant: inline
             fixture_format: '{bs}'
-            label: "Key feature 1"
+            label: "Caracteristica 1"
             localize: true
         feature_2:
             type: text
             variant: inline
             fixture_format: '{bs}'
-            label: "Key feature 2"
+            label: "Caracteristica 2"
             localize: true
         feature_3:
             type: text
             variant: inline
             fixture_format: '{bs}'
-            label: "Key feature 3"
+            label: "Caracteristica 3"
             localize: true
         imagelisty:
             label: Imagens
@@ -267,14 +268,17 @@ products:
         teaser:
             type: redactor
             fixture_format: '{paragraph}'
+            label: "Descrição corta"
             localize: true
         content:
             type: redactor
+            label: "Descrição completa"
             localize: true
         price:
             type: text
             fixture_format: "€ {randomDigitNotNull}0,-"
-            group: Prices
+            label: Preço (CVE)
+            group: "Preços e Promoções"
         slug:
             type: slug
             uses: [ title ]
@@ -285,12 +289,13 @@ products:
     show_on_dashboard: true
     viewless: false
     default_status: published
-    searchable: false
-    order: title
+    searchable: true
+    order: -datepublish
+    listing_sort: -datepublish
+    listing_records: 12
     icon_many: "fa:gifts"
     icon_one: "fa:gift"
     locales: ['pt_BR', 'en', 'fr']
-    allow_for_groups: [ 'ROLE_MEMBER', 'ROLE_ADMIN' ]
 
 # Possible field types:
 #

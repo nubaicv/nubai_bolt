@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="pt-BR" trgLang="pt-BR">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="pt-BR">
   <file id="messages.pt_BR">
     <unit id="GAoSey9" name="form.what">
       <segment>
@@ -89,12 +89,6 @@
       <segment>
         <source>error</source>
         <target>error</target>
-      </segment>
-    </unit>
-    <unit id="enVIWZI">
-      <segment>
-        <source>A YAML file cannot contain tabs as indentation at line 263 (near "	type: imagelist").</source>
-        <target>A YAML file cannot contain tabs as indentation at line 263 (near "	type: imagelist").</target>
       </segment>
     </unit>
     <unit id="kzSqYuV" name="mainmenu.products">

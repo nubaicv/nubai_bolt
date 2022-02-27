@@ -4,15 +4,17 @@
     <div id="product-list-container">
         {% for record in records %}
             <div>
-                <h3><a href="{{ record|link }}">{{ record|title }}</a></h3>
-                    {% if record|image %}
+                {% if record|image %}
                     <a href="{{ record|image }}">
                         <img src="{{ record|thumbnail(300, 180) }}" alt="{{ record|image.alt|default() }}" />
                     </a>
                 {% endif %}
-                
+                <h4><a href="{{ record|link }}">{{ record|title }}</a></h4>
             </div>
         {% endfor %}
+    </div>
+    <div id="pager-container" class="w3-container w3-padding-16">
+        {{ pager(template='partials/_pager.twig') }}
     </div>
 
 {% endblock main %}

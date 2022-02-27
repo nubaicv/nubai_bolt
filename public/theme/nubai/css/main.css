@@ -90,3 +90,40 @@ footer {
     flex-basis: auto;
     background-color: #ccc;
 }
+
+/* ESTILOS DA PAGINA LISTA DOS PRODUTOS */
+
+#product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#product-list-container > div {
+    max-width: 300px;
+    padding: 8px;
+    box-shadow: 3px 3px 8px #ccc;
+}
+
+/* paginador */
+#pager-container ul.pagination {
+    display: flex;
+    list-style-type: none;
+}
+
+#pager-container ul.pagination > li {
+    margin: 0 8px;
+    padding: 16px;
+    background-color: #ccc;
+}
+
+#pager-container ul.pagination > li.active {
+    color: white;
+    background-color: black;
+}
+
+#pager-container ul.pagination a {
+    padding: 16px;
+    text-decoration: none;
+}
