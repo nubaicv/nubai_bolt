@@ -79,5 +79,11 @@
         <target>products</target>
       </segment>
     </unit>
+    <unit id="LXtADG9" name="basic.modal">
+      <segment>
+        <source>basic.modal</source>
+        <target>Basic modal</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

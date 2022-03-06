@@ -1,27 +1,29 @@
 {% extends 'partials/_master.twig' %}
 
 {% block main %}
-    {% for message in app.flashes('success') %}
-        <div class="w3-panel w3-pale-green w3-display-container w3-padding-16">
-            <span onclick="this.parentElement.style.display = 'none'"
-                  class="w3-button w3-large w3-display-topright">&times;</span>
-            {% trans %}flash.registered{% endtrans %}
-        </div>
-        <div class="w3-panel w3-pale-red w3-display-container w3-padding-16">
-            <span onclick="this.parentElement.style.display = 'none'"
-                  class="w3-button w3-large w3-display-topright">&times;</span>
-            {% trans %}flash.registered{% endtrans %}
-        </div>
-    {% endfor %}
-    {{ form_start(form) }}
-    {{ form_label(form.name, null, { 'label_attr': {'class': ''} }) }}
-    {{ form_widget(form.name, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
-    {{ form_label(form.surname, null, { 'label_attr': {'class': ''} }) }}
-    {{ form_widget(form.surname, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
-    {{ form_label(form.email, null, { 'label_attr': {'class': ''} }) }}
-    {{ form_widget(form.email, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
-    {{ form_label(form.password, null, { 'label_attr': {'class': ''} }) }}
-    {{ form_widget(form.password, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
-    {{ form_widget(form.submit_register, { 'attr': {'class': 'w3-btn w3-indigo w3-margin-bottom'} }) }}
-    {{ form_end(form) }}
+    <div class="w3-container w3-padding-16">
+        {% for message in app.flashes('success') %}
+            <div class="w3-panel w3-pale-green w3-display-container w3-padding-16">
+                <span onclick="this.parentElement.style.display = 'none'"
+                      class="w3-button w3-large w3-display-topright">&times;</span>
+                {% trans %}flash.registered{% endtrans %}
+            </div>
+            <div class="w3-panel w3-pale-red w3-display-container w3-padding-16">
+                <span onclick="this.parentElement.style.display = 'none'"
+                      class="w3-button w3-large w3-display-topright">&times;</span>
+                {% trans %}flash.registered{% endtrans %}
+            </div>
+        {% endfor %}
+        {{ form_start(form) }}
+        {{ form_label(form.name, null, { 'label_attr': {'class': ''} }) }}
+        {{ form_widget(form.name, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+        {{ form_label(form.surname, null, { 'label_attr': {'class': ''} }) }}
+        {{ form_widget(form.surname, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+        {{ form_label(form.email, null, { 'label_attr': {'class': ''} }) }}
+        {{ form_widget(form.email, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+        {{ form_label(form.password, null, { 'label_attr': {'class': ''} }) }}
+        {{ form_widget(form.password, { 'attr': {'class': 'w3-input w3-margin-bottom w3-border'} }) }}
+        {{ form_widget(form.submit_register, { 'attr': {'class': 'w3-btn w3-indigo w3-margin-bottom'} }) }}
+        {{ form_end(form) }}
+    </div>
 {% endblock main %}

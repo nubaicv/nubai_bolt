@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="pt-BR" trgLang="fr">
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="fr">
   <file id="messages.fr">
     <unit id="GAoSey9" name="form.what">
       <segment>
@@ -89,6 +89,12 @@
       <segment>
         <source>mainmenu.products</source>
         <target>produits</target>
+      </segment>
+    </unit>
+    <unit id="LXtADG9" name="basic.modal">
+      <segment>
+        <source>basic.modal</source>
+        <target>Modal de base</target>
       </segment>
     </unit>
   </file>

@@ -68,7 +68,6 @@ aside {
 }
 
 main {
-    padding: 12px;
 }
 
 footer {
@@ -105,6 +104,12 @@ footer {
     padding: 8px;
     box-shadow: 3px 3px 8px #ccc;
 }
+
+/*#product-list-container span.currency {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ccc;
+}*/
 
 /* paginador */
 #pager-container ul.pagination {

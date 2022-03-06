@@ -97,5 +97,29 @@
         <target>produtos</target>
       </segment>
     </unit>
+    <unit id="hKmDb7q" name="Share secure preview link">
+      <segment>
+        <source>Share secure preview link</source>
+        <target>Share secure preview link</target>
+      </segment>
+    </unit>
+    <unit id="a_COwtV" name="image.button_upload_options">
+      <segment>
+        <source>image.button_upload_options</source>
+        <target>image.button_upload_options</target>
+      </segment>
+    </unit>
+    <unit id="fxn_iFw" name="basic.model">
+      <segment>
+        <source>basic.model</source>
+        <target>basic.model</target>
+      </segment>
+    </unit>
+    <unit id="LXtADG9" name="basic.modal">
+      <segment>
+        <source>basic.modal</source>
+        <target>Modal básico</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

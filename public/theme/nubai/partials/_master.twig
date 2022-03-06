@@ -22,13 +22,9 @@
     <body>
         {{ include('partials/_header.twig') }}
 
-        <main class="w3-container w3-padding-16">
-            {% block body %}
-
-                {% block main %}
-                {% endblock main %}
-
-            {% endblock body %}
+        <main class="">
+            {% block main %}
+            {% endblock main %}
         </main>
 
         {% block aside %}
