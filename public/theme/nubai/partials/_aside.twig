@@ -1,5 +1,10 @@
 <!-- Sidebar -->
 <aside class="w3-container w3-padding-16">
     <div>Aside</div>
+    {% for category in config.get('taxonomies/categorias/options') %}
+        <li>
+            <a href="{{ path('taxonomy_locale', {'taxonomyslug': "categoria", "slug": category|slug }) }}">{{ category|trans }}</a>
+        </li>
+    {% endfor %}
 </aside>
 <!-- End Sidebar -->

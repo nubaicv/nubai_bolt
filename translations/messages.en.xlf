@@ -85,5 +85,17 @@
         <target>Basic modal</target>
       </segment>
     </unit>
+    <unit id="MPxakSu" name="Hardware e periféricos de computador">
+      <segment>
+        <source>Hardware e periféricos de computador</source>
+        <target>Computer hardware and peripherals</target>
+      </segment>
+    </unit>
+    <unit id="6SWVgQ7" name="Alimentos">
+      <segment>
+        <source>Alimentos</source>
+        <target>Foods</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

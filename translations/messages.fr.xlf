@@ -97,5 +97,17 @@
         <target>Modal de base</target>
       </segment>
     </unit>
+    <unit id="MPxakSu" name="Hardware e periféricos de computador">
+      <segment>
+        <source>Hardware e periféricos de computador</source>
+        <target>Matériel informatique et périphériques</target>
+      </segment>
+    </unit>
+    <unit id="6SWVgQ7" name="Alimentos">
+      <segment>
+        <source>Alimentos</source>
+        <target>Nourriture</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

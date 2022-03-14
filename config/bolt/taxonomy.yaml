@@ -18,12 +18,13 @@ groups:
     has_sortorder: true
     required: false
 
-categories:
-    name: Categories
-    slug: categories
-    singular_name: Category
-    singular_slug: category
+categorias:
+    name: Categorias
+    slug: categorias
+    singular_name: Categoria
+    singular_slug: categoria
     behaves_like: categories
-    multiple: true
-    options: [ news, events, movies, music, books, life, love, fun ]
+    multiple: false
+    #options: [ news, events, movies, music, books, life, love, fun ]
+    options: [ "Hardware e periféricos de computador", "Alimentos" ]
     required: false
