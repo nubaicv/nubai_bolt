@@ -25,6 +25,6 @@ categorias:
     singular_slug: categoria
     behaves_like: categories
     multiple: false
-    #options: [ news, events, movies, music, books, life, love, fun ]
+    listing_template: products_by_category.twig
     options: [ "Hardware e periféricos de computador", "Alimentos" ]
     required: false

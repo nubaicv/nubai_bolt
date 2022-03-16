@@ -1,0 +1,25 @@
+{% extends 'partials/_master.twig' %}
+
+{% block main %}
+    {% setcontent products = 'products' where { categorias: 'alimentos'} orderby '-publishedAt' %}
+    <div class="w3-container w3-padding-16">
+        <div id="product-list-container">
+            {% for record in products %}
+                <div class="w3-container w3-padding-16 w3-hover-shadow">
+                    {% if record|image %}
+                        <a href="{{ record|link }}">
+                            <img src="{{ record|thumbnail(300, 180) }}" alt="{{ record|image.alt|default() }}" />
+                        </a>
+                    {% endif %}
+                    <h4 class=""><a href="{{ record|link }}">{{ record|title }}</a></h4>
+                    <span class="w3-red w3-round-small w3-padding-small w3-opacity">{{ record.price|format_currency('CVE') }}</span>
+                </div>
+            {% endfor %}
+        </div>
+        <div id="pager-container" class="w3-padding-16">
+            {{ pager(records, template='partials/_pager.twig') }}
+        </div>
+            {{ dump(taxonomy.name) }}
+    </div>
+
+{% endblock main %}

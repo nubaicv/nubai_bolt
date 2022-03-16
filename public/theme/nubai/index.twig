@@ -1,12 +1,14 @@
 {% extends 'partials/_master.twig' %}
 
 {% block main %}
+    
+    {# En este template usamos la variable homepage como mismo hariamos com la variable record #}
 
-    {% if record|default %}
+    {% if homepage|default %}
 
         <div class="w3-display-container">
 
-            {%  for image in record.slideshow %}
+            {%  for image in homepage.slideshow %}
                 <img src="{{ image }}" alt="{{ image.alt|default() }}" style="width:100%" class="mySlides">
             {%  endfor %}
             
@@ -19,7 +21,7 @@
                 
 
                 {% set counter = 1 %}
-                {%  for image in record.slideshow %}
+                {%  for image in homepage.slideshow %}
                     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv({{ counter }})">{{ counter }}</span>
                     {% set counter = counter + 1 %}
                 {%  endfor %}
@@ -66,11 +68,11 @@
                 
             {# Output the `introduction` field. If it doesn't exist, 'default' to
                the full excerpt of the current Record #}
-            {{ record.introduction|default(record|excerpt) }}
+            {{ homepage.introduction|default(homepage|excerpt) }}
 
-            {{ record.content }}
+            {{ homepage.content }}
 
-            {{ include('partials/_recordfooter.twig', { 'record': record }) }}
+            {{ include('partials/_recordfooter.twig', { 'homepage': homepage }) }}
             
             
         </div>
