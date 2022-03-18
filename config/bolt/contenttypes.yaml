@@ -288,7 +288,7 @@ products:
         template:
             type: templateselect
             filter: '/^[^_].*\.twig$/'
-    taxonomy: [ categorias ]
+    taxonomy: [ categorias, tags ]
     show_on_dashboard: true
     viewless: false
     default_status: published

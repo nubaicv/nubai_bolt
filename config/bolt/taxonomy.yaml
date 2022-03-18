@@ -1,15 +1,6 @@
 # This file defines the different types of taxonomies in Bolt. See the
 # documentation for details: https://docs.bolt.cm/contenttypes/taxonomies
 
-tags:
-    slug: tags
-    singular_slug: tag
-    behaves_like: tags
-    postfix: "Add some freeform tags. Start a new tag by typing a comma or space."
-    allow_spaces: false
-    #listing_template: tag-listing.twig #custom template
-    required: false
-
 groups:
     slug: groups
     singular_slug: group
@@ -27,4 +18,13 @@ categorias:
     multiple: false
     listing_template: products_by_category.twig
     options: [ "Hardware e periféricos de computador", "Alimentos" ]
+    required: false
+
+tags:
+    slug: tags
+    singular_slug: tag
+    behaves_like: tags
+    postfix: "Adicione algumas tags de forma livre. Inicie uma nova tag digitando uma vírgula ou espaço."
+    allow_spaces: false
+    listing_template: products_by_category.twig
     required: false
