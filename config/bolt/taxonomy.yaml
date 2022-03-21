@@ -26,5 +26,5 @@ tags:
     behaves_like: tags
     postfix: "Adicione algumas tags de forma livre. Inicie uma nova tag digitando uma vírgula ou espaço."
     allow_spaces: false
-    listing_template: products_by_category.twig
+    listing_template: products_by_tag.twig
     required: false

@@ -58,7 +58,7 @@ homepage_template: index.twig
 
 # The default content for the "Not Found" (404) page. Can be an (array of) template
 # names or identifiers for records, which will be tried until a match is found.
-notfound: [ blocks/404-not-found, 'helpers/page_404.html.twig' ]
+notfound: [ blocks/not-found, 'helpers/page_404.html.twig' ]
 
 # Toggle maintenance mode on or off. Note: If you're logged in, you'll still see
 # the website as usual. Use an incognito window to see the "maintenance" page.
@@ -99,7 +99,7 @@ record_template: record.twig
 #         website, be sure to check for a config.yaml file in your themes
 #         folder. If a template is set there, it will override the setting here.
 listing_template: listing.twig
-listing_records: 12
+listing_records: 1
 listing_sort: datepublish DESC
 
 # Allow filtering on listing pages using query parameters, much like you would
@@ -210,3 +210,7 @@ reset_password_settings:
     mail_name: "Bolt CMS"
     mail_subject: "Your password reset request"
     mail_template: "reset_password/email.html.twig"
+
+
+categorias_listing_records: 10
+tags_listing_records: 10

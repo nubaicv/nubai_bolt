@@ -208,6 +208,7 @@ blocks:
             fixture_format: '{paragraph}'
         content:
             type: redactor
+            localize: true
         contentlink:
             type: text
             label: Link
@@ -218,13 +219,18 @@ blocks:
             type: slug
             uses: [ title ]
             group: Meta
+        template:
+            type: templateselect
+            filter: '/^[^_].*\.twig$/'
     show_on_dashboard: true
-    viewless: true
+    viewless: false
+    viewless_listing: true
     default_status: published
     searchable: false
     order: title
     icon_many: "fa:cubes"
     icon_one: "fa:cube"
+    locales: ['pt_BR', 'en', 'fr']
 
 
 # The 'Products' ContentType can be used to manage information about the

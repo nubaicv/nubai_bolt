@@ -1,9 +1,13 @@
 {% extends 'partials/_master.twig' %}
 
+{% block title %}
+    {% trans %}Produtos{% endtrans %}
+{% endblock title %}
+
 {% block main %}
     <div class="w3-container w3-padding-16">
         <div id="product-list-container">
-            {% for product in products %}
+            {% for product in records %}
                 <div class="w3-container w3-padding-16 w3-hover-shadow">
                     {% if product|image %}
                         <a href="{{ product|link }}">
@@ -12,11 +16,16 @@
                     {% endif %}
                     <h4 class=""><a href="{{ product|link }}">{{ product|title }}</a></h4>
                     <span class="w3-red w3-round-small w3-padding-small w3-opacity">{{ product.price|format_currency('CVE') }}</span>
+                    <div class="w3-padding-16">
+                        {% for tag in product|taxonomies['tags'] %}
+                            <a href="{{ tag|link }}">{{ tag.name }}</a>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                    </div>
                 </div>
             {% endfor %}
         </div>
         <div id="pager-container" class="w3-padding-16">
-            {{ pager(products, template='partials/_pager.twig') }}
+            {{ pager(records, template='partials/_pager.twig') }}
         </div>
     </div>
 

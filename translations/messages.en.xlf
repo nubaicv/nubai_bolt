@@ -97,5 +97,11 @@
         <target>Foods</target>
       </segment>
     </unit>
+    <unit id="WV900rb" name="Produtos">
+      <segment>
+        <source>Produtos</source>
+        <target>Products</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

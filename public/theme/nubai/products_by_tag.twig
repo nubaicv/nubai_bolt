@@ -5,8 +5,8 @@
 {% endblock title %}
 
 {% block main %}
-    {% if taxonomy is defined and slug in taxonomy.options|keys %}
-        {% setcontent products = 'products' where { categorias: slug} limit config.get('general/categorias_listing_records') orderby '-publishedAt' %}
+    {% if taxonomy is defined %}
+        {% setcontent products = 'products' where { tags: slug} limit config.get('general/tags_listing_records') orderby '-publishedAt' %}
         <div class="w3-container w3-padding-16">
             <div id="product-list-container">
                 {% for record in products %}
@@ -31,9 +31,6 @@
             </div>
             {{ dump() }}
         </div>
-    {% else %}
-       {# {{ redirect(path('record_locale', {'contentTypeSlug': 'block', 'slugOrId': '404-not-found' })) }} #}
-       {{ redirect(path('homepage_locale')) }}
     {% endif %}
 
 {% endblock main %}

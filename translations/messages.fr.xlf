@@ -109,5 +109,17 @@
         <target>Nourriture</target>
       </segment>
     </unit>
+    <unit id="WV900rb" name="Produtos">
+      <segment>
+        <source>Produtos</source>
+        <target>Produits</target>
+      </segment>
+    </unit>
+    <unit id="zKzWC21" name="hardware-e-perifericos-de-computador">
+      <segment>
+        <source>hardware-e-perifericos-de-computador</source>
+        <target>hardware-e-perifericos-de-computador</target>
+      </segment>
+    </unit>
   </file>
 </xliff>
