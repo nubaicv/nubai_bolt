@@ -145,5 +145,11 @@
         <target>Produtos</target>
       </segment>
     </unit>
+    <unit id="ZvAy7MD" name="A YAML file cannot contain tabs as indentation at line 17 (near &quot;&#9;&#9;pt-BR: ''&quot;).">
+      <segment>
+        <source>A YAML file cannot contain tabs as indentation at line 17 (near "		pt-BR: ''").</source>
+        <target>A YAML file cannot contain tabs as indentation at line 17 (near "		pt-BR: ''").</target>
+      </segment>
+    </unit>
   </file>
 </xliff>

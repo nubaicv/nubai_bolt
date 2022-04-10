@@ -18,7 +18,7 @@
                     <span class="w3-red w3-round-small w3-padding-small w3-opacity">{{ product.price|format_currency('CVE') }}</span>
                     <div class="w3-padding-16">
                         {% for tag in product|taxonomies['tags'] %}
-                            <a href="{{ tag|link }}">{{ tag.name }}</a>{% if not loop.last %}, {% endif %}
+                            <a class="w3-opacity" href="{{ path('taxonomy_locale', { 'taxonomyslug': 'tag', 'slug': tag.slug }) }}">{{ tag.name|lower }}</a>{% if not loop.last %}, {% endif %}
                         {% endfor %}
                     </div>
                 </div>

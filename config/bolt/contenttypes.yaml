@@ -222,7 +222,7 @@ blocks:
         template:
             type: templateselect
             filter: '/^[^_].*\.twig$/'
-    show_on_dashboard: true
+    show_on_dashboard: false
     viewless: false
     viewless_listing: true
     default_status: published
