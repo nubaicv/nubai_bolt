@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/home/ricardo/NetBeansProjects/nubai_bolt/public/theme/nubai/products.twig</file>
-            <file>file:/home/ricardo/NetBeansProjects/nubai_bolt/public/theme/nubai/products_by_category.twig</file>
-            <file>file:/home/ricardo/NetBeansProjects/nubai_bolt/public/theme/nubai/products_by_tag.twig</file>
-            <file>file:/home/ricardo/NetBeansProjects/nubai_bolt/config/bolt/config.yaml</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
